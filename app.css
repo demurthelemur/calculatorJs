@@ -1,0 +1,14 @@
+.button{
+    display: inline-block;
+    margin: 3%;
+}
+
+.buttonCustom{
+    display: inline-block;
+    margin: 3%;
+}
+
+#resultBtn{
+    display: inline-block;
+    margin: 3%;
+}
