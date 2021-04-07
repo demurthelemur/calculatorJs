@@ -1,14 +1,60 @@
 .button{
     display: inline-block;
-    margin: 3%;
+    margin: 3px;
+    padding: 37px;
+    border: 1px solid grey;
+    border-radius: 23px;
+    background-color: darkgray;
 }
 
 .buttonCustom{
     display: inline-block;
-    margin: 3%;
+    padding: 37px;
+    border: 1px solid grey;
+    border-radius: 23px;
+    background-color: #c45427;
 }
 
 #resultBtn{
     display: inline-block;
     margin: 3%;
+    display: inline-block;
+    padding: 37px;
+    border: 1px solid grey;
+    border-radius: 23px;
+    background-color: #a6320c;
+}
+
+#display{
+    font-weight: bold;
+    font-size: large;
+    background-color: darkgray;
+    border: 1px solid grey;
+    border-radius: 23px;
+    height: 24px;
+    padding: 18px 0;
+    text-align: center;
+}
+
+body{
+    background-color: #3d3a3a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#container{
+    margin: auto;
+    width: 50%;
+    background-color: #a19996;
+    padding: 5px;
+    border-radius: 35px;
+}
+
+#resetBtn{
+    background-color:  #c45427;
+    border-radius: 23px;
+    width: 30%;
+    margin: auto;
+    padding: 9px 0;
+    text-align: center;
 }
