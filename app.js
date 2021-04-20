@@ -48,8 +48,13 @@ resultBtn.addEventListener("click", () => {
         result = firstNum * secondNum;
         displayNum.innerText = result;
     } else if(operation == "/"){
-        result = firstNum / secondNum;
-        displayNum.innerText = result;
+        if(secondNum == "0"){
+            displayNum.innerText = "mathematıcal not correct you siksok!";
+        } else{
+            result = firstNum / secondNum;
+            displayNum.innerText = result;
+        }
+        
     } else{
         displayNum.innerText = "Error!"
     }
